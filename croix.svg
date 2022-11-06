@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666667 8.4666667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1-alpha (2a16015, 2021-02-21)"
+   sodipodi:docname="croix.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     objecttolerance="10.0"
+     gridtolerance="10.0"
+     guidetolerance="10.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="-64.125"
+     inkscape:cy="24.625"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0d0d;stroke-width:0.735933;stroke-linecap:square;stroke-miterlimit:2.9;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect846"
+       width="0.55297309"
+       height="7.7280636"
+       x="3.9568467"
+       y="0.36787781"
+       rx="0"
+       ry="0" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0d0d;stroke-width:0.735933;stroke-linecap:square;stroke-miterlimit:2.9;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect846-3"
+       width="0.55297309"
+       height="7.7280636"
+       x="3.9550073"
+       y="-8.0977802"
+       rx="0"
+       ry="0"
+       transform="rotate(90.005627)" />
+  </g>
+</svg>

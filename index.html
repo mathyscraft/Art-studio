@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr" style="overflow: hidden;">
+<html lang="fr" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Art Studio</title>
 </head>
 <body>
-    <div id="menu" style="position: fixed; background: white;">
-        <input type="color"></input>
+    <div id="menu">
+        <label for="palette-1" value="#000000">Pen / Fill :</label>
+        <input type="color" id="palette-1"></input>
+        <label for="palette-2">Stoke :</label>
+        <input type="color" id="palette-2"></input>
         <label for="weight">Weight :</label>
-        <input type="range" id="weight" value=20 style="width: 100px;">
+        <input type="range" id="weight" value=20 width="100px">
+        <div class="buttons">
+            <button id="rectangle-mode">C</button>
+            <button onclick="exportImg()"><img src="export.svg" alt="Export"></button>
+        </div>
     </div>
     <canvas></canvas>
     <script src="app.js" defer></script>
