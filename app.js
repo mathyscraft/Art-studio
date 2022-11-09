@@ -115,7 +115,9 @@ rectangleModeButton.addEventListener('click', () => {
 function drawrectangle() {
     let croix = 0;
     const nbrImg = document.getElementsByTagName('img').length
-    canvas.addEventListener('click', () => {
+    canvas.addEventListener('click', draw);
+canvas.addEventListener('touchend', draw);
+function draw() {
         if (croix < 2) {
             document.querySelector('body').appendChild(document.createElement('img'));
             croixImg = document.getElementsByTagName('img')[nbrImg+croix];
@@ -140,6 +142,6 @@ function drawrectangle() {
                 document.getElementsByTagName('img')[nbrImg+1].remove();
                 document.getElementsByTagName('img')[nbrImg].remove();
             }
-        } 
-    });
+        }
+}
 }
