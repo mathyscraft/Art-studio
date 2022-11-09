@@ -100,7 +100,7 @@ let shapeMode = false;
 const rectangleModeButton = document.getElementById('rectangle-mode');
 rectangleModeButton.style.backgroundColor = "#f1f1f190"
 rectangleModeButton.addEventListener('click', () => {
-    shapeMode = !rectangleMode;
+    shapeMode = !shapeMode;
 
     if (shapeMode === true) {
         rectangleModeButton.style.backgroundColor = "#f1f1f1";
@@ -116,8 +116,8 @@ function drawrectangle() {
     let croix = 0;
     const nbrImg = document.getElementsByTagName('img').length
     canvas.addEventListener('click', draw);
-canvas.addEventListener('touchend', draw);
-function draw() {
+    canvas.addEventListener('touchup', draw);
+    function draw() {
         if (croix < 2) {
             document.querySelector('body').appendChild(document.createElement('img'));
             croixImg = document.getElementsByTagName('img')[nbrImg+croix];
@@ -143,5 +143,5 @@ function draw() {
                 document.getElementsByTagName('img')[nbrImg].remove();
             }
         }
-}
+    }
 }
